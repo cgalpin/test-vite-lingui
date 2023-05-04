@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:JSON.parse("{\"L2pnH+\":[\"Current Language: \",[\"locale\"]],\"f4m7nc\":\"one\",\"pAlfed\":\"three\",\"6HI/Yp\":\"two\",\"0ljZPF\":\"Vite + React + Lingui\"}")};
