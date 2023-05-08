@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
-import { t, Trans } from '@lingui/macro';
+import { Trans, t } from '@lingui/macro';
+import { useLingui } from '@lingui/react';
 import { locales, defaultLocale, dynamicActivate } from './i18n';
 
 const Numbers = () => {
+  useLingui();
   const numbers = [
     t`one`,
     t`two`,
     t`three`
-  ]
+  ];
 
   return (
     <ol>
